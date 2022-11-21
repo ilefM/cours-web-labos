@@ -1,0 +1,35 @@
+.toast-container {
+    top: 0;
+    right: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.toast-text {
+    color: white;
+    font-size: x-large;
+}
+
+.toast {
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 12px 10px 0px;
+    border-radius: 5px;
+}
+
+.toast-info {
+    background-color: yellow;
+}
+
+.toast-error {
+    background-color: red;
+}
+
+.toast-success {
+    background-color: green;
+}
